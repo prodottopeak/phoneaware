@@ -1,0 +1,17 @@
+title: PhoneAware
+url: https://prodottopeak.github.io
+baseurl: /phoneaware
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: support.md
+    values:
+      title: PhoneAware Support
+  - scope:
+      path: privacy.md
+    values:
+      title: PhoneAware Privacy Policy
