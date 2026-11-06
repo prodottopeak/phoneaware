@@ -64,7 +64,8 @@
           const cycle=Math.floor(elapsed/4000), within=(elapsed%4000)/4000, remaining=Math.ceil(1500*(1-within));
           const cue=cycle>0 && elapsed%4000<1000;
           count.textContent = Math.floor(remaining/60)+':'+String(remaining%60).padStart(2,'0');
-          status.textContent=cue ? labels.cue : labels.running;
+          const nextStatus=cue ? labels.cue : labels.running;
+          if (status.textContent!==nextStatus) status.textContent=nextStatus;
           draw(elapsed/1000,1-within,cycle>0 ? (elapsed%4000)/1000 : -1);
           if (elapsed>=9000) finish();
         } else {
