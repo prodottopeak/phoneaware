@@ -30,4 +30,4 @@ Payments are processed by Apple. PhoneAware does not receive or store your payme
 
 For questions about privacy:
 
-prodottopeak@gmail.com
+hello@prodottopeak.com

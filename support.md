@@ -4,7 +4,7 @@ Thanks for using PhoneAware.
 
 If you need help, have a question, or want to report a bug, contact:
 
-prodottopeak@gmail.com
+hello@prodottopeak.com
 
 ## Common Topics
 
@@ -114,7 +114,7 @@ System follows your iPhone’s current appearance setting.
 
 If something is not working as expected, please email:
 
-prodottopeak@gmail.com
+hello@prodottopeak.com
 
 Including the following information will help:
 
